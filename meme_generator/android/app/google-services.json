@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862829146644",
+    "project_id": "hcrl-train-flutter-memegen",
+    "storage_bucket": "hcrl-train-flutter-memegen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862829146644:android:fe0d2a4a9cb56bef1ced01",
+        "android_client_info": {
+          "package_name": "com.example.meme_generator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862829146644-culqsr6fecbbnqjfs0bl1r6k2ijlosu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkxqSs1NGyRLLCdnS1a-_OdxIawCVhNqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862829146644-culqsr6fecbbnqjfs0bl1r6k2ijlosu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
