@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:meme_generator/home_page.dart';
 import 'package:meme_generator/auth_page.dart';
+import 'package:meme_generator/select_meme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lime,
       ),
-      home: AuthPage(),
+      home: SelectMeme(),
     );
   }
 }

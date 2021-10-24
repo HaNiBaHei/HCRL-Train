@@ -1,7 +1,10 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:meme_generator/home_page.dart';
+import 'package:meme_generator/select_meme.dart';
 
 class AuthPage extends StatefulWidget {
   const AuthPage({Key? key}) : super(key: key);
@@ -72,7 +75,7 @@ class _AuthPageState extends State<AuthPage> {
                       email: _email, password: _password);
                   print('Logined!!');
                   Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (context) => HomePage()));
+                      MaterialPageRoute(builder: (context) => SelectMeme()));
                 } on FirebaseAuthException catch (e) {
                   print(e.message);
                 }
